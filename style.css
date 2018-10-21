@@ -1,0 +1,141 @@
+body, html{
+	height: 100%
+}
+
+a{
+	text-decoration: none;
+    outline: 0;
+}
+#wrapper{
+	font-size: 1em;
+    margin: 0 auto;
+    width: 990px;
+}
+
+#wrapper #atas{
+	height: 192px;
+}
+
+#atas .login{
+    float: right;
+    width: 10px;
+    height: 39px;
+    text-align: center;
+    margin: 10px 0 10px 10px;
+    padding: 2px 10px 0;
+}
+
+#atas .logo{
+	height: 23px;
+    background: 0 0;
+    float: left;
+    border: 0;
+    margin: 3px 0 0 4px;
+}
+
+#atas .jdltk{
+	margin-top: 5px;
+	text-align: center;
+}
+
+#atas .jdltk .omenu .item{
+	margin-top: 5px;
+	text-align: center;
+}
+
+li ,ul{
+	list-style-type: none;
+}
+.omenu{
+	background: 0 -80px repeat-x;
+	display: block;
+    float: left;
+    margin: 0 0 6px;
+    width: 990px;
+    font-size: 20px;
+    font-family: arial,helvetica;
+}
+
+.omenu .item a{
+
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 10px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#main-mn{
+	display: block;
+    float: left;
+    margin: 0 0 6px;
+    width: 990px;
+    font-size: 15px;
+    font-family: arial,helvetica;
+}
+
+#main-mn ul {
+    display: block;
+    height: 40px;
+}
+#main-mn ul li{
+	float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#main-mn ul li a{
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 38px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#wrapper .content{
+	font-size: 12px;
+}
+
+.new{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content .new h3, h4{
+	display: block;
+    margin-top: 10px;
+    text-align: center
+}
+.pagi_wrap{
+	font-size: 20px;
+	display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+#footer {
+    background: yellow;
+    color: blue;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    width: auto;
+}
+
+a{
+	color: black;
+}
